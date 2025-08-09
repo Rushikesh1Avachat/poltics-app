@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Banner from './Banner';
 import LoginModal from './LoginModal';
 import RegisterModal from './RegisterModal';
+import sanjaySarogi from '../assets/sanjaysaraogi.jpg';
 
 const Navbar = () => {
   const [isLoginOpen, setIsLoginOpen] = useState(false);
@@ -26,7 +27,7 @@ const Navbar = () => {
         <div className="max-w-7xl mx-auto flex items-center justify-between">
           <div className="flex items-center gap-4">
             <img 
-              src="../src/assets/sanjay.jpeg" 
+              src={sanjaySarogi} 
               alt="Sanjay Sarogi" 
               className="w-12 h-12 rounded-full object-cover border-2 border-orange-700"
             />

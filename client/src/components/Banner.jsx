@@ -1,20 +1,22 @@
 import { useState } from "react";
 import { ArrowLeft, ArrowRight, ChevronLeft, ChevronRight } from "lucide-react"; // or use any icon lib you prefer
 import DailyCampaign from "./DailyCampaign";
-
+import banner1 from '../assets/banner-1.jpg';
+import banner2 from '../assets/banner-2.jpg';
+import banner3 from '../assets/banner-3.jpg';
 const banners = [
   {
-    img: "../src/assets/banner-1.jpg",
+    img: "../src/assets/banner-1.jpg " || banner1,
     title: "Sanjay Sarogi",
     subtitle: "Minister for Revenue and Land Reforms of Government of Bihar",
   },
   {
-    img: "../src/assets/banner-2.jpg",
+    img: "../src/assets/banner-2.jpg" || banner2,
     title: "Sanjay Sarogi",
     subtitle: "Minister for Revenue and Land Reforms of Government of Bihar.",
   },
   {
-    img: "../src/assets/banner-3.jpg",
+    img: "../src/assets/banner-3.jpg" || banner3,
     title: "Sanjay Sarogi",
     subtitle: "Minister for Revenue and Land Reforms of Government of Bihar.",
   },

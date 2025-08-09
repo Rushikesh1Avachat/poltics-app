@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Check } from "lucide-react";
 import FormContact from "./FormContact";
+import sanjayImage from '../assets/sanjaysaraogi.jpg';
 
 const SolutionContact = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -71,7 +72,7 @@ const SolutionContact = () => {
             {/* Video/Image Content */}
             <div className="relative h-64 md:h-96 w-full rounded overflow-hidden shadow-lg col-span-1">
               <img
-                src="../src/assets/sanjaysaraogi.jpg"
+                src={sanjayImage}
                 alt="Sanjay"
                 className="object-cover w-full h-full"
               />
