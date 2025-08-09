@@ -4,17 +4,17 @@ import DailyCampaign from "./DailyCampaign";
 
 const banners = [
   {
-    img: "/src/assets/banner-1.jpg",
+    img: "../src/assets/banner-1.jpg",
     title: "Sanjay Sarogi",
     subtitle: "Minister for Revenue and Land Reforms of Government of Bihar",
   },
   {
-    img: "/src/assets/banner-2.jpg",
+    img: "../src/assets/banner-2.jpg",
     title: "Sanjay Sarogi",
     subtitle: "Minister for Revenue and Land Reforms of Government of Bihar.",
   },
   {
-    img: "/src/assets/banner-3.jpg",
+    img: "../src/assets/banner-3.jpg",
     title: "Sanjay Sarogi",
     subtitle: "Minister for Revenue and Land Reforms of Government of Bihar.",
   },

@@ -23,7 +23,7 @@ const TodayActivity = () => {
   {/* Box 1 */}
   <div className="rounded shadow-md flex flex-col h-full bg-white animate-fadeInUp hover:bg-teal-800 transition-opacity " style={{ animationDelay: '0.3s', animationName: 'fadeInUp', visibility: 'visible' }}>
     <div className="rounded-t overflow-hidden h-[250px]">
-      <img src="/src/assets/activity-1.jpg" alt="Image" className="w-full h-full object-cover" />
+      <img src="../src/assets/activity-1.jpg" alt="Image" className="w-full h-full object-cover" />
     </div>
     <div className="rounded-b bg-white p-2 flex flex-col">
       <div className="overflow-y-scroll px-1 h-[250px]">
@@ -42,7 +42,7 @@ const TodayActivity = () => {
   {/* Box 2 */}
   <div className="rounded shadow-md flex flex-col h-full bg-white animate-fadeInUp hover:bg-teal-800 transition-opacity" style={{ animationDelay: '0.3s', animationName: 'fadeInUp', visibility: 'visible' }}>
     <div className="rounded-t overflow-hidden h-[250px]">
-      <img src="/src/assets/activity-2.jpg" alt="Image" className="w-full h-full object-cover" />
+      <img src="../src/assets/activity-2.jpg" alt="Image" className="w-full h-full object-cover" />
     </div>
     <div className="rounded-b bg-white p-2 flex flex-col">
       <div className="overflow-y-scroll px-1 h-[250px]">
@@ -61,7 +61,7 @@ const TodayActivity = () => {
   {/* Box 3 */}
   <div className="rounded shadow-md flex flex-col h-full bg-white animate-fadeInUp hover:bg-teal-800 transition-opacity" style={{ animationDelay: '0.3s', animationName: 'fadeInUp', visibility: 'visible' }}>
     <div className="rounded-t overflow-hidden h-[250px]">
-      <img src="/src/assets/activity-3.jpg" alt="Image" className="w-full h-full object-cover" />
+      <img src="../src/assets/activity-3.jpg" alt="Image" className="w-full h-full object-cover" />
     </div>
     <div className="rounded-b bg-white p-2 flex flex-col">
       <div className="overflow-y-scroll px-1 h-[250px]">
@@ -80,7 +80,7 @@ const TodayActivity = () => {
   {/* Box 4 */}
   <div className="rounded shadow-md flex flex-col h-full bg-white animate-fadeInUp hover:bg-teal-800 transition-opacity" style={{ animationDelay: '0.3s', animationName: 'fadeInUp', visibility: 'visible' }}>
     <div className="rounded-t overflow-hidden h-[250px]">
-      <img src="/src/assets/activity-4.jpg" alt="Image" className="w-full h-full object-cover" />
+      <img src="../src/assets/activity-4.jpg" alt="Image" className="w-full h-full object-cover" />
     </div>
     <div className="rounded-b bg-gray-100 p-2 flex flex-col">
       <div className="overflow-y-scroll px-1 h-[250px]">

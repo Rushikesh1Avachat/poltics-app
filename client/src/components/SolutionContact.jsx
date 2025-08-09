@@ -71,7 +71,7 @@ const SolutionContact = () => {
             {/* Video/Image Content */}
             <div className="relative h-64 md:h-96 w-full rounded overflow-hidden shadow-lg col-span-1">
               <img
-                src="/src/assets/sanjay.jpeg"
+                src="../src/assets/sanjaysaraogi.jpg"
                 alt="Sanjay"
                 className="object-cover w-full h-full"
               />

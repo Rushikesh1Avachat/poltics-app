@@ -26,7 +26,7 @@ const Navbar = () => {
         <div className="max-w-7xl mx-auto flex items-center justify-between">
           <div className="flex items-center gap-4">
             <img 
-              src="src/assets/sanjaysaraogi.jpg" 
+              src="../src/assets/sanjay.jpeg" 
               alt="Sanjay Sarogi" 
               className="w-12 h-12 rounded-full object-cover border-2 border-orange-700"
             />
