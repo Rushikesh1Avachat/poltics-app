@@ -6,17 +6,17 @@ import banner2 from '../assets/banner-2.jpg';
 import banner3 from '../assets/banner-3.jpg';
 const banners = [
   {
-    img: "../src/assets/banner-1.jpg " || banner1,
+    img: banner1,
     title: "Sanjay Sarogi",
     subtitle: "Minister for Revenue and Land Reforms of Government of Bihar",
   },
   {
-    img: "../src/assets/banner-2.jpg" || banner2,
+    img:  banner2,
     title: "Sanjay Sarogi",
     subtitle: "Minister for Revenue and Land Reforms of Government of Bihar.",
   },
   {
-    img: "../src/assets/banner-3.jpg" || banner3,
+    img:  banner3,
     title: "Sanjay Sarogi",
     subtitle: "Minister for Revenue and Land Reforms of Government of Bihar.",
   },
